@@ -1,38 +1,23 @@
 # Ionic 
 
-## Install
+## Installing
 ```
-mkdir ionic-1.3.4
-cd ionic-1.3.4
-wget https://github.com/Sammight/ionic/releases/download/purejs/ionic-1.3.4.gz
-tar -xvf ionic-1.3.4.gz
-cd bin
-node ionic
-```
-
-# Test
-```
-pwd
-...ionic-1.3.4/bin/myProgram
-node ionic serve
+get https://github.com/abakasam/ionic/releases/download/functional/ionic-1.3.4.tar.gz
+tar -xvf ionic-1.3.4.tar.gz
+cd ionic
+chmod u+x iojs/node
+./iojs/node
+./iojs/node bin/ionic
+cd starter/tabs
+../../iojs/node ../../bin/ionic serve tabs
 ```
 
+IONICFRAMEWORK OLD README
 
-# Ionic-Cli
-=========
 
-The Ionic Framework command line utility makes it easy to start, build, run, and emulate [Ionic](http://ionicframework.com/) apps. In the future, it will also have support for our mobile development services and tools that make Ionic even more powerful.
+The Ionic Framework command line utility makes it easy to start, build, run, and emulate [Ionic](http://ionicframework.com/) apps.
 
 Use the `ionic --help` command for more detailed task information.
-
-## Installing
-
-```bash
-$ npm install -g ionic
-```
-
-*Note: For a global install of `-g ionic`, OSX/Linux users may need to prefix the command with `sudo`.*
-
 
 ## Starting an Ionic App
 
@@ -360,15 +345,15 @@ ionic start my_app
 PROXY=internal.proxy.com ionic start my_app
 ```
 
-
 ## Using Sass
 
 By default, starter projects are hooked up to Ionic's precompiled CSS file, which is found in the project's `www/lib/ionic/css` directory, and is linked to the app in the head of the root `index.html` file. However, Ionic projects can also be customized using [Sass](http://sass-lang.com/), which gives developers and designers "superpowers" in terms of creating and maintaining CSS. Below are two ways to setup Sass for your Ionic project (the `ionic setup sass` command simply does the manual steps for you). Once Sass has been setup for your Ionic project, then the `ionic serve` command will also watch for Sass changes.
 
 #### Setup Sass Automatically
 
-    ionic setup sass
-
+```bash
+$ ionic setup sass
+```
 
 #### Setup Sass Manually
 
