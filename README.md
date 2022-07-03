@@ -1,5 +1,7 @@
 # Ionic 
 
+
+
 ## Installing
 ```
 get https://github.com/abakasam/ionic/releases/download/functional/ionic-1.3.4.tar.gz
@@ -31,15 +33,18 @@ __Named template starters:__
 
 ### Ionic AngularJS
 
+* super
+* conference
+
+#### Build from Ionic blank template
+
 * tabs
 * blank
 * sidemenu
-* super
-* conference
 * tutorial
 * aws
 
-### Ionic PureJS
+### Ionic
 
 * tabs
 * blank
