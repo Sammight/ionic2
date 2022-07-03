@@ -29,19 +29,22 @@ Starter templates can either come from a named template, a Github repo, a Codepe
 
 __Named template starters:__
 
-* [tabs](https://github.com/driftyco/ionic-starter-tabs) (Default)
-* [sidemenu](https://github.com/driftyco/ionic-starter-sidemenu)
-* [blank](https://github.com/driftyco/ionic-starter-blank)
+### Ionic AngularJS
 
-__Github Repo starters:__
+* tabs
+* blank
+* sidemenu
+* super
+* conference
+* tutorial
+* aws
 
-* Any Github repo url, ex: [https://github.com/driftyco/ionic-starter-tabs](https://github.com/driftyco/ionic-starter-tabs)
-* Named templates are simply aliases to Ionic starter repos
+### Ionic PureJS
 
-__Codepen URL starters:__
-
-* Any Codepen url, ex: [http://codepen.io/ionic/pen/odqCz](http://codepen.io/ionic/pen/odqCz)
-* [Ionic Codepen Demos](http://codepen.io/ionic/public-list/)
+* tabs
+* blank
+* sidemenu
+* maps
 
 __Local directory starters:__
 
@@ -58,7 +61,7 @@ __Command-line flags/options:__
 
 ## Testing in a Browser
 
-Use `ionic serve` to start a local development server for app dev and testing. This is useful for both desktop browser testing, and to test within a device browser which is connected to the same network. Additionally, this command starts LiveReload which is used to monitor changes in the file system. As soon as you save a file the browser is refreshed automatically. View [Using Sass](https://github.com/driftyco/ionic-cli/blob/master/README.md#using-sass) if you would also like to have `ionic serve` watch the project's Sass files.
+Use `ionic serve` to start a local development server for app dev and testing. This is useful for both desktop browser testing, and to test within a device browser which is connected to the same network. Additionally, this command starts LiveReload which is used to monitor changes in the file system. As soon as you save a file the browser is refreshed automatically. View, Using Sass, if you would also like to have `ionic serve` watch the project's Sass files.
 
 ```bash
 $ ionic serve [options]
@@ -94,7 +97,7 @@ $ ionic setup sass
 
 will add a `watchPatterns` propery with the default values to your `ionic.project`
 file that you can then edit, in addition to the `gulpStartupTasks` property
-described in the [Using Sass](https://github.com/driftyco/ionic-cli/blob/master/README.md#using-sass) section.
+described in the ,Using Sass , section.
 
 
 __Service Proxies:__

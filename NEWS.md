@@ -1,4 +1,11 @@
-# ionic
+# 9, July 2022
+
+# TODO: Change templates folder to stater
+# TODO: Download remaining templates from ionicframework
+# TODO: Edit running or installating for ionic-1.3.4.tar.gz
+# TODO: Update ionic-1.3.4.tar.gz from 3, July 2022
+
+# 3, July 2022
 
 ## Metro UI
 Name | Site
