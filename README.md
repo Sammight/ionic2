@@ -4,6 +4,7 @@
 ```bash
 $ git clone https://github.com/abakasam-development/ionic.git
 $ cd ionic
+$ iojs-3.3.1/node node_modules/cordova/bin/cordova
 $ iojs-3.3.1/node bin/ionic
 $ cd starter/blank
 $ ../../iojs-3.3.1/node ../../bin/ionic serve
