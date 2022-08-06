@@ -1,18 +1,47 @@
 # Ionic 
 
+## Running
 
-```bash
-$ git clone https://github.com/abakasam-development/ionic.git
-$ cd ionic
-$ iojs-3.3.1/node node_modules/cordova/bin/cordova
-$ iojs-3.3.1/node bin/ionic
-$ cd starter/blank
-$ ../../iojs-3.3.1/node ../../bin/ionic serve
-```
-https://localhost:8100
+### From Git
 
-IONICFRAMEWORK OLD README
+	git clone https://github.com/abakasam-development/ionic.git
+	cd ionic
+	iojs-3.3.1/node node_modules/cordova/bin/cordova
+	iojs-3.3.1/node bin/ionic
+	cd starters/blank
+	../../iojs-3.3.1/node ../../bin/ionic serve
 
+### From Source
+
+	cd ionic
+	iojs-3.3.1/node node_modules/cordova/bin/cordova
+	iojs-3.3.1/node bin/ionic
+	cd starters/blank
+	../../iojs-3.3.1/node ../../bin/ionic serve
+
+### From Binaries
+
+	cd ionic	
+	node: iojs-3.3.1/node --version
+	ionic: bin/ionic --version
+	PATH=$PATH:$(pwd)/node_modules/cordova/bin/
+	export PATH
+	cordova: cordova or node_modules/cordova/bin/cordova --version
+
+### Cordova Plugin
+
+	cd ionic
+	iojs-3.3.1/node node_modules/cordova/bin/cordova
+	iojs-3.3.1/node bin/ionic
+	cd starters/blank
+	../../iojs-3.3.1/node ../../bin/ionic serve
+	../../iojs-3.3.1/node ../../bin/ionic cordova plugin add ../../cordova/cordova-plugin-statusbar
+
+## Documentation
+
+https://aquaogen-ionic-documentation.herokuapp.com/
+
+# Old README
 
 The Ionic Framework command line utility makes it easy to start, build, run, and emulate [Ionic](http://ionicframework.com/) apps.
 
