@@ -41,15 +41,10 @@
 
 https://aquaogen-ionic-documentation.herokuapp.com/
 
-
-
-
-
-
-
-
-
-
+	tar -xvf ionic-documentation-0.0.2.tar.gz
+	cd ionic-documentation
+	node server.js
+	http://localhost:3000
 
 # Old README
 
