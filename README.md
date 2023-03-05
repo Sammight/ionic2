@@ -2,7 +2,7 @@
 
 ## Running
 
-### From Git
+### From Git (GitHub)
 
 	git clone https://github.com/abakasam-development/ionic.git
 	cd ionic
@@ -11,15 +11,16 @@
 	cd starters/blank
 	../../iojs-3.3.1/node ../../bin/ionic serve
 
-### From Source
+### From Source (tar.gz)
 
+	tar -xvf ionic-x-x-x.tar.gz
 	cd ionic
 	iojs-3.3.1/node node_modules/cordova/bin/cordova
 	iojs-3.3.1/node bin/ionic
 	cd starters/blank
 	../../iojs-3.3.1/node ../../bin/ionic serve
 
-### From Binaries
+### From Binaries (Using environment variables)
 
 	cd ionic	
 	node: iojs-3.3.1/node --version
@@ -38,8 +39,6 @@
 	../../iojs-3.3.1/node ../../bin/ionic cordova plugin add ../../cordova/cordova-plugin-statusbar
 
 ## Documentation
-
-https://aquaogen-ionic-documentation.herokuapp.com/
 
 	tar -xvf ionic-documentation-0.0.2.tar.gz
 	cd ionic-documentation
