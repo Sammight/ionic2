@@ -2,7 +2,7 @@
 
 ## Running
 
-### From Git (GitHub)
+### From Git - GitHub
 
 	git clone https://github.com/abakasam-development/ionic.git
 	cd ionic
@@ -11,7 +11,7 @@
 	cd starters/blank
 	../../iojs-3.3.1/node ../../bin/ionic serve
 
-### From Source (tar.gz)
+### From Source - tar.gz
 
 	tar -xvf ionic-x-x-x.tar.gz
 	cd ionic
@@ -20,7 +20,7 @@
 	cd starters/blank
 	../../iojs-3.3.1/node ../../bin/ionic serve
 
-### From Binaries (Using environment variables)
+### From Binaries - Using environment variables
 
 	cd ionic	
 	node: iojs-3.3.1/node --version
